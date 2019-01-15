@@ -14,7 +14,7 @@
 		17873AAF21EDA2CF00BA2199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17873AAD21EDA2CF00BA2199 /* LaunchScreen.storyboard */; };
 		17873ADF21EDA3D200BA2199 /* Segmentor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17873AB721EDA3D200BA2199 /* Segmentor.cpp */; };
 		17873AE021EDA3D200BA2199 /* iosjieba.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17873AB821EDA3D200BA2199 /* iosjieba.bundle */; };
-		17873AE221EDA4EB00BA2199 /* iosjiebaWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.m */; };
+		17873AE221EDA4EB00BA2199 /* iosjiebaWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,8 +63,9 @@
 		17873ADC21EDA3D200BA2199 /* SegmentBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SegmentBase.hpp; sourceTree = "<group>"; };
 		17873ADD21EDA3D200BA2199 /* HMMSegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HMMSegment.hpp; sourceTree = "<group>"; };
 		17873ADE21EDA3D200BA2199 /* Segmentor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segmentor.h; sourceTree = "<group>"; };
-		17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosjiebaWrapper.m; sourceTree = "<group>"; };
+		17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iosjiebaWrapper.mm; sourceTree = "<group>"; };
 		17873AE321EDA52E00BA2199 /* iosjiebaWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosjiebaWrapper.h; sourceTree = "<group>"; };
+		17873AE421EDA61C00BA2199 /* SwiftJiebaDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftJiebaDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +105,9 @@
 				17873AAB21EDA2CF00BA2199 /* Assets.xcassets */,
 				17873AAD21EDA2CF00BA2199 /* LaunchScreen.storyboard */,
 				17873AB021EDA2CF00BA2199 /* Info.plist */,
-				17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.m */,
+				17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.mm */,
 				17873AE321EDA52E00BA2199 /* iosjiebaWrapper.h */,
+				17873AE421EDA61C00BA2199 /* SwiftJiebaDemo-Bridging-Header.h */,
 			);
 			path = SwiftJiebaDemo;
 			sourceTree = "<group>";
@@ -246,7 +248,7 @@
 				17873AA721EDA2CD00BA2199 /* ViewController.swift in Sources */,
 				17873ADF21EDA3D200BA2199 /* Segmentor.cpp in Sources */,
 				17873AA521EDA2CD00BA2199 /* AppDelegate.swift in Sources */,
-				17873AE221EDA4EB00BA2199 /* iosjiebaWrapper.m in Sources */,
+				17873AE221EDA4EB00BA2199 /* iosjiebaWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +403,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiwihui.SwiftJiebaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftJiebaDemo/SwiftJiebaDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -419,6 +422,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiwihui.SwiftJiebaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftJiebaDemo/SwiftJiebaDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
