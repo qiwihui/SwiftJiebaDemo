@@ -15,6 +15,7 @@
 		17873ADF21EDA3D200BA2199 /* Segmentor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17873AB721EDA3D200BA2199 /* Segmentor.cpp */; };
 		17873AE021EDA3D200BA2199 /* iosjieba.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17873AB821EDA3D200BA2199 /* iosjieba.bundle */; };
 		17873AE221EDA4EB00BA2199 /* iosjiebaWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.mm */; };
+		17873AE621EDA72E00BA2199 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17873AE521EDA72D00BA2199 /* Classifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iosjiebaWrapper.mm; sourceTree = "<group>"; };
 		17873AE321EDA52E00BA2199 /* iosjiebaWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosjiebaWrapper.h; sourceTree = "<group>"; };
 		17873AE421EDA61C00BA2199 /* SwiftJiebaDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftJiebaDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		17873AE521EDA72D00BA2199 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				17873AE121EDA4EB00BA2199 /* iosjiebaWrapper.mm */,
 				17873AE321EDA52E00BA2199 /* iosjiebaWrapper.h */,
 				17873AE421EDA61C00BA2199 /* SwiftJiebaDemo-Bridging-Header.h */,
+				17873AE521EDA72D00BA2199 /* Classifier.swift */,
 			);
 			path = SwiftJiebaDemo;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17873AE621EDA72E00BA2199 /* Classifier.swift in Sources */,
 				17873AA721EDA2CD00BA2199 /* ViewController.swift in Sources */,
 				17873ADF21EDA3D200BA2199 /* Segmentor.cpp in Sources */,
 				17873AA521EDA2CD00BA2199 /* AppDelegate.swift in Sources */,
